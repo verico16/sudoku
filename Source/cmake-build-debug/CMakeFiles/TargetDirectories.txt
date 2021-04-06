@@ -1,0 +1,3 @@
+/home/dima/D/C-projects/sudoku/Source/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/dima/D/C-projects/sudoku/Source/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dima/D/C-projects/sudoku/Source/cmake-build-debug/CMakeFiles/Source.dir
