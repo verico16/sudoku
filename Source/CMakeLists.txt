@@ -3,4 +3,4 @@ project(Source C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Source main.c)
+add_executable(Source main.c game.c myheader.h)

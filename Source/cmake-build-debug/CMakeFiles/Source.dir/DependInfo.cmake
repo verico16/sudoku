@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/home/dima/D/C-projects/sudoku/Source/game.c" "/home/dima/D/C-projects/sudoku/Source/cmake-build-debug/CMakeFiles/Source.dir/game.c.o"
   "/home/dima/D/C-projects/sudoku/Source/main.c" "/home/dima/D/C-projects/sudoku/Source/cmake-build-debug/CMakeFiles/Source.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

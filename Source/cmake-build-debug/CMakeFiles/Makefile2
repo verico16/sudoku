@@ -94,12 +94,12 @@ clean: CMakeFiles/Source.dir/clean
 CMakeFiles/Source.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Source.dir/build.make CMakeFiles/Source.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Source.dir/build.make CMakeFiles/Source.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dima/D/C-projects/sudoku/Source/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Source"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dima/D/C-projects/sudoku/Source/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target Source"
 .PHONY : CMakeFiles/Source.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Source.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dima/D/C-projects/sudoku/Source/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dima/D/C-projects/sudoku/Source/cmake-build-debug/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Source.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dima/D/C-projects/sudoku/Source/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Source.dir/rule

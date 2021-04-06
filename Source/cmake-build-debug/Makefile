@@ -143,6 +143,33 @@ Source/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Source.dir/build.make CMakeFiles/Source.dir/build
 .PHONY : Source/fast
 
+game.o: game.c.o
+
+.PHONY : game.o
+
+# target to build an object file
+game.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Source.dir/build.make CMakeFiles/Source.dir/game.c.o
+.PHONY : game.c.o
+
+game.i: game.c.i
+
+.PHONY : game.i
+
+# target to preprocess a source file
+game.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Source.dir/build.make CMakeFiles/Source.dir/game.c.i
+.PHONY : game.c.i
+
+game.s: game.c.s
+
+.PHONY : game.s
+
+# target to generate assembly for a file
+game.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Source.dir/build.make CMakeFiles/Source.dir/game.c.s
+.PHONY : game.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -179,6 +206,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Source"
+	@echo "... game.o"
+	@echo "... game.i"
+	@echo "... game.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

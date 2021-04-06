@@ -76,7 +76,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/dima/D/C-projects/sudoku/Source/game.c">
+			<Option target="Source"/>
+		</Unit>
 		<Unit filename="/home/dima/D/C-projects/sudoku/Source/main.c">
+			<Option target="Source"/>
+		</Unit>
+		<Unit filename="/home/dima/D/C-projects/sudoku/Source/myheader.h">
 			<Option target="Source"/>
 		</Unit>
 		<Unit filename="/home/dima/D/C-projects/sudoku/Source/CMakeLists.txt">

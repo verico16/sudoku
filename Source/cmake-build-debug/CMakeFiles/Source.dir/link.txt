@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/Source.dir/main.c.o  -o Source 
+/usr/bin/cc -g   CMakeFiles/Source.dir/main.c.o CMakeFiles/Source.dir/game.c.o  -o Source 
