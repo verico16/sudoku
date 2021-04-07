@@ -1,32 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 #include "myheader.h"
 
 SUDOKU s_table;
 
 // функція ініціалізує екземпляр структури
-void init(char* path) {
-    int pathlen = strlen(path);
-    char data_fname[] = DATA_FNAME;
-    while (path[pathlen - 1] != '\\' && path[pathlen - 1] != '/') pathlen--;
-
-    char* datapath = malloc(sizeof(char) * (pathlen + strlen(data_fname)));
-    if (!datapath) { printf(" Memory cannot be allocated"); return; }
-    for (int i = 0; i < pathlen; ++i) {
-        datapath[i] = path[i];
-    }
-    for (int j = strlen(data_fname); j > 0; --j) {
-        datapath[pathlen + j] = data_fname[j];
-    }
-
-
-
-
-
-
-
-
+void init() {
     s_table.size = 9;
     s_table.hidden = 0;
     int configuration[] = {0, 3, 6, 1, 4, 7, 2, 5, 8}; // перший стовпчик базової таблиці

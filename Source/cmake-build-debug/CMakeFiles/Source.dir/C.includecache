@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dima/D/C-projects/sudoku/Source/game.c
+stdio.h
+-
+stdlib.h
+-
+myheader.h
+/home/dima/D/C-projects/sudoku/Source/myheader.h
+
+/home/dima/D/C-projects/sudoku/Source/main.c
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+myheader.h
+/home/dima/D/C-projects/sudoku/Source/myheader.h
+
+/home/dima/D/C-projects/sudoku/Source/myheader.h
+

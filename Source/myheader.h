@@ -1,10 +1,8 @@
 #ifndef SUDOKU_MYHEADER_H
 #define SUDOKU_MYHEADER_H
 
-#define DATA_FNAME "sudoku_data.dat"
 #define MAX_MIX 75
 #define MIN_MIX 55
-
 
 typedef struct SUDOKU {
     int size;
@@ -13,7 +11,7 @@ typedef struct SUDOKU {
     int player_table[9][9];
 } SUDOKU;
 
-void init(char* path);
+void init();
 void change_value(int x, int y, int value);
 void print_message();
 void draw_table();
@@ -36,15 +34,12 @@ void my_rewind();
 
 
 /* TO DO
-
+ * додати олівець
  * якщо вийшов, то запам'ятовувати таблицю в файлі
    і перед початком запитувати чи продовжувати попередню гру
+ * додати керування з клавіатури
+ * додати кольори
+ * покращити генерацію
  * додати лічильник помилок (також зберігати в файлі)
  * додати різні розміри (2, 3, 4, 5)
-
- ** додати олівець
- ** додати керування з клавіатури
- ** додати кольори
- ** покращити генерацію
-
  */

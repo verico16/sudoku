@@ -8,15 +8,10 @@ static int message_index = 0; // змінні для виводу повідом
 static char message1[] = "\n You cannot edit a cell (_; _)";
 static char message2[] = "\n The number _ cannot be in the cell (_; _)";
 
-
-int main(int argc, char* argv[]) {
+int main() {
     srand(time(NULL));
 
-
-
-
-
-    init(argv[0]); // створюємо поле
+    init(); // створюємо поле
     generate_table();
     hide_numbers(); // ховаємо деякі символи
     int pos_x, pos_y, value; // змінні, в які записуються введені користувачем значення
