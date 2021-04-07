@@ -2,4 +2,8 @@
 
 console game sudoku
 
-run 'sudoku_linux' for OS Linux or 'sudoku_windows.exe' for OS Windows
+author: 
+https://github.com/verico16/sudoku
+
+run 'sudoku_linux' in terminal for OS Linux(Mint/Ubuntu/...)
+or 'sudoku_windows.exe' for OS Windows
